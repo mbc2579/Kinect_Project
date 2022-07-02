@@ -1,0 +1,14 @@
+﻿<Window x:Class="Login2.menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login2"
+        mc:Ignorable="d"
+        Title="menu" Height="450" Width="800">
+    <Grid Background="#FFFFAFAF">
+        <Button Content="게임시작" HorizontalAlignment="Left" Margin="155,151,0,0" VerticalAlignment="Top" Width="188" Height="97" FontSize="36" OpacityMask="Black" Background="#FF8ECDFF" BorderBrush="#FFD7EDFF" Click="Button_Click"/>
+        <Button Content="순위" Margin="459,151,155.6,0" VerticalAlignment="Top" Height="97" FontSize="36" Background="#FF8ECDFF" OpacityMask="Black" BorderBrush="#FFD7EDFF" Foreground="#ffffff" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
